@@ -34,7 +34,7 @@ This repo is not accepting pull requests. Please fork this repo if you want to a
 1. Copy `.env.example` to `.env` and start filling in the values as detailed below
 ```
 docker build -t docker-openaigptbot .
-docker run -v './env':'/gpt-discord-bot/.env'
+docker run -v '/path_to_file/gpt-discord-bot/.env':'/gpt-discord-bot/.env' docker-openaigptbot:latest
 ```
 
 # Optional configuration
